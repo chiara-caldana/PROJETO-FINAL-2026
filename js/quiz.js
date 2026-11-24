@@ -59,7 +59,7 @@ function iniciarQuiz(escolha) {
 
     document.getElementById("inicio").classList.add("escondido");
 
-    document.getElementById("quiz").classList.remove("escondido");
+    document.getElementById("areaQuiz").classList.remove("escondido");
 
     document.getElementById("resultado").innerHTML = "";
 
@@ -133,7 +133,7 @@ function corrigir() {
 
 function voltar() {
 
-    document.getElementById("quiz").classList.add("escondido");
+    document.getElementById("areaQuiz").classList.add("escondido");
 
     document.getElementById("inicio").classList.remove("escondido");
 

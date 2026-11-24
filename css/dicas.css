@@ -800,3 +800,21 @@ footer {
     height: 46px;
     width: auto;
 }
+
+.escondido {
+    display: none !important;
+}
+
+.pergunta {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 10px rgba(0, 31, 63, 0.1);
+}
+
+.opcao {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
